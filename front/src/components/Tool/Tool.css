@@ -1,0 +1,73 @@
+.container-tool {
+  width: 100%;
+  background-color: #f6f9fe;
+  height: 30%;
+  margin-top: 2rem;
+}
+
+.container-box {
+  padding: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.tool-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  width: 60%;
+  font-size: 50px;
+  color: #0c0a0a;
+}
+
+.tool-left {
+  width: 50%;
+  text-align: center;
+}
+
+.tool-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.tool-right ul {
+  width: 60%;
+}
+
+.check {
+  width: 15px;
+  margin-right: 2%;
+}
+
+.container-icons {
+  display: flex;
+}
+.tool-right ul li p {
+  color: #6c6c6c;
+}
+
+.tool-right ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon-tool {
+  color: #8055e1;
+  border-radius: 4px;
+  border: 3px solid rgba(0 0 0 / 10%);
+  background: white;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
