@@ -6,6 +6,7 @@ import Tool from "../components/Tool/Tool";
 import Share from "../components/Share/Share";
 import Code from "../components/Code/Code";
 import Price from "../components/Price/Price";
+import Device from "../components/Device/Device";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Share />
       <Code />
       <Price />
+      <Device />
     </>
   );
 }
