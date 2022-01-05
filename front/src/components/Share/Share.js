@@ -1,6 +1,10 @@
 import React from "react";
 import thumb2 from "../../assets/thumb-2.png";
-import check from "../../assets/check.svg";
+import { RiStackFill } from "react-icons/ri";
+import { FaBrush } from "react-icons/fa";
+import { IoIosWater } from "react-icons/io";
+import { FaCartArrowDown } from "react-icons/fa";
+import "./Share.css";
 
 function Share() {
   return (
@@ -8,45 +12,48 @@ function Share() {
       <div className="container-share">
         <div className="share-box">
           <div className="share-left">
-            <span className="share-title">Share you photos with your friends easily</span>
+            <div className="share-title">
+              <h1>Share you photos with friends easily</h1>
+            </div>
             <ul>
               <li>
-                <img src={check} className="check" alt="" />
+                <div className="share-icons">
+                  <RiStackFill />
+                </div>
                 <p>
-                  Combined with a handful of model sentence structures looks
-                  reasonable.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
               </li>
               <li>
-                <img src={check} className="check" alt="" />
+                <div className="share-icons">
+                  <FaBrush />
+                </div>
                 <p>
-                  Contrary to popular belief, Lorem ipsum is not simply
-                  randomtext.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
               </li>
               <li>
-                <img src={check} className="check" alt="" />
+                <div className="share-icons">
+                  <IoIosWater />
+                </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium.
-                </p>
-              </li>
-
-              <li>
-                <img src={check} className="check" alt="" />
-                <p>
-                  Natus error sit voluptatem unde omnis iste natus error sit
-                  volupatatem accusantium.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
               </li>
               <li>
-                <img src={check} className="check" alt="" />
+                <div className="share-icons">
+                  <FaCartArrowDown />
+                </div>
                 <p>
-                  All the Lorem Ipsum generators on the Internet tend to repeat
-                  necessary.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
               </li>
             </ul>
+            <button className="share-button">Learn More</button>
           </div>
           <div className="share-right">
             <img src={thumb2} alt="" />
