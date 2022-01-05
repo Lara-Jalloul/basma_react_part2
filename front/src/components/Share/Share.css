@@ -1,0 +1,46 @@
+.share-right img {
+  margin-top: 7rem;
+  height: 80vh;
+  margin-right: 10rem;
+}
+
+.check {
+  width: 15px;
+  margin-right: 2%;
+}
+
+.share-left ul {
+  width: 60%;
+}
+
+.share-left ul li p {
+  color: #6c6c6c;
+}
+
+.share-left ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.share-title {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  width: 60%;
+  font-size: 50px;
+  color: #0c0a0a;
+}
+
+.share-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+.share-right {
+    width: 50%;
+    text-align: center;
+  }
