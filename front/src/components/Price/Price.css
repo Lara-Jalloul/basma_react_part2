@@ -24,7 +24,6 @@
 .price-line {
   border: 1px solid #552ade;
   width: 4%;
-  /* margin-bottom: 2rem; */
   margin-top: 1.5rem;
   margin: auto;
 }
@@ -85,7 +84,6 @@
 .signup {
   background-color: #682ce2;
   color: white;
-  /* margin-top: 5rem; */
   position: absolute;
   width: 30%;
   height: 8%;
