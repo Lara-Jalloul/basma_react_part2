@@ -5,6 +5,7 @@ import Challenge from "../components/Challenge/Challenge";
 import Tool from "../components/Tool/Tool";
 import Share from "../components/Share/Share";
 import Code from "../components/Code/Code";
+import Price from "../components/Price/Price";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Tool />
       <Share />
       <Code />
+      <Price />
     </>
   );
 }
