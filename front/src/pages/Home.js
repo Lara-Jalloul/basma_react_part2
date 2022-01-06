@@ -7,6 +7,7 @@ import Share from "../components/Share/Share";
 import Code from "../components/Code/Code";
 import Price from "../components/Price/Price";
 import Device from "../components/Device/Device";
+import Subscribe from "../components/Subscribe/Subscribe";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <Code />
       <Price />
       <Device />
+      <Subscribe />
     </>
   );
 }
