@@ -8,6 +8,7 @@ import Code from "../components/Code/Code";
 import Price from "../components/Price/Price";
 import Device from "../components/Device/Device";
 import Subscribe from "../components/Subscribe/Subscribe";
+import Contact from "../components/ContactUs/Contact";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Price />
       <Device />
       <Subscribe />
+      <Contact />
     </>
   );
 }
