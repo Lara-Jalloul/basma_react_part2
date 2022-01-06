@@ -19,6 +19,7 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 4rem;
+  text-align: center;
 }
 
 .price-line {
@@ -39,7 +40,7 @@
   color: #5a5a5a;
   list-style: none;
   padding-bottom: 1rem;
-  padding-top:1rem;
+  padding-top: 1rem;
   border-top: 1px solid #e8eaed;
 }
 
@@ -55,6 +56,10 @@
   color: #5a5a5a;
   margin-top: 1rem;
   margin-bottom: 5rem;
+  text-align: center;
+}
+.price-card-icon {
+  text-align: center;
 }
 
 .price-card-icon img {
@@ -106,16 +111,32 @@
   border-radius: 10px;
 }
 
-.price-contact{
-  color:#34373c;
+.price-contact {
+  color: #34373c;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-top:3rem;
-  font-size:0.9rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
-.price-contact a{
-  color:#34373c;
+.price-contact a {
+  color: #34373c;
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .price-bottom {
+    width: 100%;
+  }
+  
+  .price-cards {
+    width: 35%;
+  }
+  .price-content {
+width:70%;
+margin:auto;
+padding-bottom:5rem;
+padding-top:1rem;
+  }
 }

@@ -29,7 +29,7 @@ function Contact() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt expedita hic, sint quibusdam nemo nihil. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                tempor incididunt ut labore et dolore magna.
               </div>
               <ul>
                 <li>

@@ -46,3 +46,13 @@
   cursor: pointer;
   margin-bottom: 5rem;
 }
+
+@media screen and (max-width: 960px) {
+  .subscribe-title {
+    font-size: 2.8rem;
+    width: 100vw;
+  }
+  .container-subscribe {
+    width: 60%;
+  }
+}

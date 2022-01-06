@@ -4,10 +4,10 @@ import "./Navbar.css";
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <>
+
       <nav className="navbar">
         <ul
-          className={isMobile ? "nav-links-mobile" : "nav-links"}
+          className={isMobile ? "nav-menu active" : "nav-menu"}
           onClick={() => setIsMobile(false)}
         >
           <li className="list drop">Home</li>
@@ -17,7 +17,7 @@ function Navbar() {
           <li className="list">Pricing</li>
           <li className="list">Contact</li>
 
-          <button
+          {/* <button
             className="mobile-menu-icon"
             onClick={() => setIsMobile(!isMobile)}
           >
@@ -26,10 +26,13 @@ function Navbar() {
             ) : (
               <i className="fas fa-bars"></i>
             )}
-          </button>
+          </button> */}
         </ul>
+        <div className="mobile-menu-icon" onClick={()=> setIsMobile(!isMobile)}>
+            <i className={isMobile ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
       </nav>
-    </>
+ 
   );
 }
 

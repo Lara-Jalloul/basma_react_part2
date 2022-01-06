@@ -25,3 +25,13 @@
   height: 100%;
   width: 50%;
 }
+
+@media screen and (max-width: 960px) {
+  .tool-left img {
+    height: 80vh;
+  }
+  .tool-right {
+    width: 70%;
+    height: 100vh;
+  }
+}

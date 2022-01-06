@@ -20,6 +20,7 @@
   font-size: 2.8rem;
   padding-bottom: 1.5rem;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .device-desc {
@@ -32,7 +33,7 @@
 
 .device-image {
   height: 5%;
-  align-items: center;
+  text-align: center;
 }
 
 .device-image img {
@@ -47,4 +48,5 @@
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   padding-bottom: 5rem;
+  text-align: center;
 }

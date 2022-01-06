@@ -13,6 +13,7 @@
 li {
   color: white;
   font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 .list {
@@ -26,7 +27,7 @@ li.drop::after {
   height: 1%;
 }
 
-.nav-links {
+.nav-menu {
   display: flex;
   justify-content: flex-end;
   list-style: none;
@@ -37,3 +38,40 @@ li.drop::after {
   display: none;
 }
 
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: -250%;
+    transition: all 0.5s ease;
+  }
+
+  .navbar {
+    width: 30%;
+    height: 5%;
+  }
+
+  .nav-menu.active {
+    background: #6c2de2;
+    left: 0px;
+    top: 12;
+    transition: all 0.5s ease;
+  }
+
+  li {
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+  }
+}
