@@ -9,7 +9,7 @@ function Data() {
   return (
     <>
       <div className="share-title">
-        <h1>Share you photos with friends easily</h1>
+        <h1>Share your photos with friends easily</h1>
       </div>
       <ul>
         <li>

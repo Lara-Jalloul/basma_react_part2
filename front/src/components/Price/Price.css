@@ -105,10 +105,13 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-left: 5rem;
   box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px;
   width: 50%;
   border-radius: 10px;
+}
+
+.price-cards:nth-child(1) {
+  margin-right: 4rem;
 }
 
 .price-contact {
@@ -129,14 +132,19 @@
   .price-bottom {
     width: 100%;
   }
-  
   .price-cards {
     width: 35%;
   }
   .price-content {
-width:70%;
-margin:auto;
-padding-bottom:5rem;
-padding-top:1rem;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .price-cards:nth-child(1) {
+    margin-right: 2.5rem;
   }
 }

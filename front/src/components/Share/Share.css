@@ -19,12 +19,18 @@
 
 @media screen and (max-width: 960px) {
   .share-left {
-    width:60%;
+    width: 60%;
   }
-  .share-right{
-    width:30%;
+  .share-right {
+    width: 30%;
   }
-  .share-right img{
-    margin-left:2rem;
+  .share-right img {
+    margin-left: 2rem;
   }
+}
+
+@media screen and (max-width: 740) {
+  /* .share-left {
+    width: 30%;
+  } */
 }

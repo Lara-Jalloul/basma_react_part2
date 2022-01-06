@@ -56,3 +56,9 @@
     width: 60%;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .subscribe-title {
+    font-size: 2rem;
+  }
+}
