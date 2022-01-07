@@ -62,3 +62,12 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .subscribe-title {
+    font-size: 1.5rem;
+  }
+  .subscribe {
+    padding:10px;
+  }
+}

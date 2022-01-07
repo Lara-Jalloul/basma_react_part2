@@ -95,3 +95,27 @@
     margin-left: 4rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .polygon {
+    display: none;
+  }
+  .right img {
+    width: 80%;
+    height: 20%;
+  }
+  .showcase {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+  }
+  .left {
+    margin-top: 4rem;
+  }
+  .left .parag {
+    font-size: 14px;
+    width: 80%;
+  }
+  .btn {
+    margin-left: 1.5rem;
+  }
+}

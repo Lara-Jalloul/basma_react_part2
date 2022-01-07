@@ -148,3 +148,20 @@
     margin-right: 2.5rem;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .price-code {
+    font-size: 1.5rem;
+  }
+  .price-content {
+    font-size: 1rem;
+  }
+  .price-bottom {
+    flex-direction: column;
+  }
+  .price-cards {
+    width: 70%;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+  }
+}

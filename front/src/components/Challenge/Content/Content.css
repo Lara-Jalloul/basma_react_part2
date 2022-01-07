@@ -22,3 +22,9 @@
   margin: auto;
   color: #5a5a5a;
 }
+
+@media screen and (max-width: 500px) {
+  .parag {
+    width: 53%;
+  }
+}

@@ -76,3 +76,14 @@
     width: 30%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .share-title {
+    font-size: 10px;
+    width:100%;
+    margin:auto;
+  }
+  .share-button {
+    padding:13px;
+  }
+}

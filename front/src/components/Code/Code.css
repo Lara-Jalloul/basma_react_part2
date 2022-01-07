@@ -73,9 +73,30 @@
   .code-bottom-desc {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
   }
   .code-bottom-text {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .code-title {
+    font-size: 25px;
+  }
+  .code-bottom-icons img {
+    width: 35%;
+  }
+  .code-bottom-text {
+    font-size: 1rem;
+  }
+  .arrow {
+    font-size: 1.3rem;
+  }
+  .code-bottom-desc {
+    font-size: 0.7rem;
+  }
+  .code-desc {
+    width: 100%;
+    font-size: 15px;
   }
 }

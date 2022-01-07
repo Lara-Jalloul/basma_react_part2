@@ -38,3 +38,14 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 500px) {
+  .code {
+    font-size: 1.5rem;
+  }
+  .content{
+    width:75%;
+  }
+  .feature_bottom {
+    grid-template-columns: 1fr;
+  }
+}

@@ -159,3 +159,40 @@ textarea {
     font-size: 15px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .contact-title {
+    font-size: 1.5rem;
+  }
+  .contact-content {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .contact-box {
+    flex-direction: column;
+  }
+  .contact-box-second {
+    width: 100%;
+  }
+  .contact-box ul li div:last-child {
+    font-size: 15px;
+  }
+
+  .contact-box-first ul li {
+    width: 100%;
+  }
+
+  .contact-box-first ul {
+    width: 80%;
+  }
+
+  .contact-box-first {
+    width: 100%;
+    display: block;
+    justify-content: center;
+  }
+  .contact-text {
+    margin: auto;
+    width: 80%;
+  }
+}

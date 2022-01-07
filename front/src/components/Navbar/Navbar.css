@@ -75,3 +75,12 @@ li.drop::after {
     color: white;
   }
 }
+@media screen and (max-width: 500px) {
+  .mobile-menu-icon {
+    color: #6c2de2;
+  }
+  .navbar {
+    width: 50%;
+  }
+
+}

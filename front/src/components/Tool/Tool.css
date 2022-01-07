@@ -38,12 +38,32 @@
 @media screen and (max-width: 740px) {
   .tool-left img {
     height: 80vh;
-    
   }
   .tool-right {
     width: 90%;
   }
   .container-tool {
     height: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tool-left img {
+    height: 50vh;
+  }
+  .tool-left {
+    margin-bottom: 2rem;
+  }
+  .tool-right {
+    height: 10%;
+    padding-left: 2rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .container-box {
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -9,8 +9,7 @@
 
 .tool-right ul li p {
   color: #6c6c6c;
-  margin-left:1rem;
-  /* padding-left: 1rem; */
+  margin-left: 1rem;
 }
 
 .tool-right ul li {
@@ -36,7 +35,7 @@
   .tool-title {
     font-size: 35px;
     padding-left: 2rem;
-    width:80%;
+    width: 80%;
   }
   .tool-right ul li {
     margin-bottom: 0rem;
@@ -45,7 +44,7 @@
     text-align: left;
   }
   .tool-right {
-    height:90vh;
+    height: 90vh;
   }
 }
 @media screen and (max-width: 740px) {
@@ -58,9 +57,22 @@
     margin-bottom: 1rem;
   }
   .tool-right {
-    height:10%;
+    height: 10%;
   }
   .tool-right ul li p {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .tool-right ul li {
+    width: 100%;
+  }
+  .tool-title {
+    font-size: 20px;
+    width:100%;
+  }
+  .tool-right ul  {
+    width: 100%;
   }
 }
